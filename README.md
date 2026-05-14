@@ -7,6 +7,7 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_01_Basics/` - Basic Playwright and JavaScript setup examples
 - `chapter_02_Javascript_Concepts/` - JavaScript fundamentals and identifier handling
 - `chapter_03_Identifier_Literals/` - Identifier, literals, comments, and related examples
+- `chapter04_Javascript_Concepts/` - Advanced JavaScript concepts, scope, hoisting, and functions
 
 ## Notes
 
