@@ -1,20 +1,20 @@
-// 1. Maximum number between two numbers, okay, by using the ternary operator
+//1. Maximum number between two numbers, okay, by using the ternary operator
 
-// let a = 20;
-// let b = 50;
-// let max = a > b ? a : b;
-// console.log("The maximum number is ", max);
+let a = 20;
+let b = 50;
+let max = a > b ? a : b;
+console.log("The maximum number is ", max);
 
 //2.  And maximum between the three numbers also by using turnery over
-// let x = 380;
-// let y = 850;
-// let z = 92;
-// let maximum = x > y && x > z ? x : y > z ? y : z;
-// console.log("Maximum of 3 numbers is ", maximum);
+let x = 380;
+let y = 850;
+let z = 92;
+let maximum = (x > y && x > z) ? x : y > z ? y : z;
+console.log("Maximum of 3 numbers is ", maximum);
 
-// Upload your solution to the GitHub profile also.
+Upload your solution to the GitHub profile also.
 
-// 3.
+//3.
 
 let a = 5;
 console.log(a++ + ++a - --a + a-- + ++a);
