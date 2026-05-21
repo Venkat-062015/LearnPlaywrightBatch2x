@@ -13,6 +13,7 @@ function printHello() {
 
 printHello();
 
+
 var a = 50;
 
 // var is flipper, dual faced, not trustworthy

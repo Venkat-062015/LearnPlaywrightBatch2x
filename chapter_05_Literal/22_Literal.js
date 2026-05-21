@@ -13,3 +13,4 @@ console.log(typeof isStudent);
 console.log(typeof nullValue);
 console.log(typeof undefinedValue);
 
+console.log(typeof 42)

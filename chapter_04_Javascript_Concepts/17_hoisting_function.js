@@ -1,13 +1,26 @@
-function getUserStatus() {
-    //var status_code;  JS Engine creates this (optimizes the code)
-    console.log(status_code);
-    var status_code = "Active";
-    console.log(status_code);
+// function getUserStatus() {
+//     //var status_code;  JS Engine creates this (optimizes the code)
+//     console.log(status_code);
+//     var status_code = "Active";
+//     console.log(status_code);
 
-}
+// }
 
-getUserStatus();
+// getUserStatus();
 
 
 // Note:var is function scoped, so status is hoisted to
 //the top of getUserStatus(), Not the global scope.
+
+
+// greet();
+
+// function greet() {
+//     console.log("Hi");
+// }
+
+sayHi();
+
+const sayHi = function () {
+    console.log("Hi");
+}

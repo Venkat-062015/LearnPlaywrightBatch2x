@@ -1,6 +1,6 @@
 const BASE_URL = "https://app.thetestingacademy.com"
-//const BASE_URL = "https://app.thetestingacademy.com" --redeclaration not allowed
-//BASE_URL = "https://staging.thetestingacademy.com"; -- reassignment not allowed
+// const BASE_URL = "https://app.thetestingacademy.com" //--redeclaration not allowed
+// BASE_URL = "https://staging.thetestingacademy.com"; //--reassignment not allowed
 // TypeError: Assignment to constant variable.
 
 
@@ -16,6 +16,7 @@ function say() {
     let name = "Venkat";
 }
 
+console.log(name);
 say();
 say();
 
