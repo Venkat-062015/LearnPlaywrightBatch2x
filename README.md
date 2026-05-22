@@ -12,6 +12,7 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_06_Operator/` - Operator examples, comparison, increment/decrement, ternary, and nullish operators
 - `chapter_07_Statement/` - JavaScript statement examples and control flow
 - `chapter_08_Switch_Statement/` - Switch statement examples and use cases
+- `chapter_09_User_Input/` - User input examples using prompt and synchronous input patterns
 
 ## Notes
 
