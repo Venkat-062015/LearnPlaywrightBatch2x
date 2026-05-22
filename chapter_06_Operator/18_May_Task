@@ -12,7 +12,7 @@ let z = 92;
 let maximum = (x > y && x > z) ? x : y > z ? y : z;
 console.log("Maximum of 3 numbers is ", maximum);
 
-Upload your solution to the GitHub profile also.
+//Upload your solution to the GitHub profile also.
 
 //3.
 

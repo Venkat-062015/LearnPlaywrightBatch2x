@@ -7,15 +7,21 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_01_Basics/` - Basic Playwright and JavaScript setup examples
 - `chapter_02_Javascript_Concepts/` - JavaScript fundamentals and identifier handling
 - `chapter_03_Identifier_Literals/` - Identifier, literals, comments, and related examples
-- `chapter04_Javascript_Concepts/` - Advanced JavaScript concepts, scope, hoisting, and functions
+- `chapter_04_Javascript_Concepts/` - Advanced JavaScript concepts, scope, hoisting, and functions
+- `chapter_05_Literal/` - String, number, template literal, and null/undefined examples
+- `chapter_06_Operator/` - Operator examples, comparison, increment/decrement, ternary, and nullish operators
+- `chapter_07_Statement/` - JavaScript statement examples and control flow
+- `chapter_08_Switch_Statement/` - Switch statement examples and use cases
 
 ## Notes
 
 - The examples are intended for learning JavaScript and Playwright basics.
 - Each chapter contains focused code files and reference materials.
+- New chapters have been added over time to cover operators, statements, and switch logic.
 
 ## How to use
 
 1. Open the repository in VS Code.
 2. Review chapter folders and code examples.
 3. Run JavaScript files with Node.js if needed.
+4. Use the chapter names to locate relevant topics quickly.

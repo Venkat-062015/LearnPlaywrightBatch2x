@@ -1,0 +1,22 @@
+// app.vwo.com -- 3 role viewer, editor or admin 
+
+let isLoggedIn = false;
+let userRole = "editor";
+
+if (isLoggedIn) {
+
+    if (userRole === "admin") {
+        console.log("admin can do all the things")
+    }
+    else if (userRole === "editor") {
+        console.log("Welcome Editor - Edit access granted.");
+    } else if (userRole === "viewer") {
+        console.log("Welcome Viewer - Read-only access.");
+    } else {
+        console.log("No idea you may be a guest! role");
+    }
+
+
+} else {
+    console.log("You are not logged in")
+}
