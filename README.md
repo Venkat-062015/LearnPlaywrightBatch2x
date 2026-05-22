@@ -18,7 +18,8 @@ This repository contains Playwright learning examples and JavaScript concepts or
 
 - The examples are intended for learning JavaScript and Playwright basics.
 - Each chapter contains focused code files and reference materials.
-- New chapters have been added over time to cover operators, statements, and switch logic.
+- New chapters have been added over time to cover operators, statements, switch logic, and user input.
+- `chapter_07_Statement/` now includes recently added May task examples for statement practice.
 
 ## How to use
 
