@@ -13,6 +13,7 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_07_Statement/` - JavaScript statement examples and control flow
 - `chapter_08_Switch_Statement/` - Switch statement examples and use cases
 - `chapter_09_User_Input/` - User input examples using prompt and synchronous input patterns
+- `chapter_10_Loops/` - Loop examples including for, while, do-while, and practice tasks
 
 ## Notes
 
