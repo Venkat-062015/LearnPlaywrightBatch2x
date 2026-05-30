@@ -14,6 +14,8 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_08_Switch_Statement/` - Switch statement examples and use cases
 - `chapter_09_User_Input/` - User input examples using prompt and synchronous input patterns
 - `chapter_10_Loops/` - Loop examples including for, while, do-while, and practice tasks
+- `chapter_11_Arrays/` - Array examples: creation, iteration, searching, and transformation
+- `chapter_12_Functions/` - Function types, arrow functions, parameters, and return values
 
 ## Notes
 
@@ -21,6 +23,7 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - Each chapter contains focused code files and reference materials.
 - New chapters have been added over time to cover operators, statements, switch logic, and user input.
 - `chapter_07_Statement/` now includes recently added May task examples for statement practice.
+- `chapter_11_Arrays/` and `chapter_12_Functions/` were added (May 2026) with multiple example files.
 
 ## How to use
 
