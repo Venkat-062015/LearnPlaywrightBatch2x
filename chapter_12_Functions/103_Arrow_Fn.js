@@ -25,3 +25,27 @@ console.log(doubleIt(10));
 
 const printIt = name => console.log(name);
 printIt("Rao");
+
+function add(a, b) {
+    return a + b;
+}
+
+const add1 = (a, b) => a + b;
+console.log(add1(3, 4));
+
+function say() {
+    console.log("Hi");
+}
+
+const say1 = () => console.log("Hi");
+console.log(say1())
+// say1();
+
+const say2 = () => "Hi"
+// console.log(say2())
+say2();
+
+const greet3 = name => {
+    const message = "Hi" + name;
+    return message;    //If we have more than 1 line in arrow function then we should use return.
+}
