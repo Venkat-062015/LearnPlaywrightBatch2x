@@ -25,6 +25,12 @@ This repository contains Playwright learning examples and JavaScript concepts or
 - `chapter_07_Statement/` now includes recently added May task examples for statement practice.
 - `chapter_11_Arrays/` and `chapter_12_Functions/` were added (May 2026) with multiple example files.
 
+## Update
+
+- README refreshed on June 3, 2026 with a clearer project overview.
+- Latest additions include `chapter_12_Functions/` examples such as arrow functions, IIFE, default/rest/spread parameters, scope, closures, higher-order functions, and pure functions.
+- Use Node.js to run and explore the JavaScript examples in each chapter folder.
+
 ## How to use
 
 1. Open the repository in VS Code.
