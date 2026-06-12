@@ -1,3 +1,10 @@
+// Real QA Scenario: End-to-End Login for the App.vwo.com 
+
+// openbrowser()
+// goToLoginPage()
+// enterCredentials()
+// clickLogin()
+
 function openBrowser(callback) {
     console.log("opening the chrome Browser");
     setTimeout(function () {
@@ -39,3 +46,4 @@ openBrowser(function () {
         })
     })
 })
+

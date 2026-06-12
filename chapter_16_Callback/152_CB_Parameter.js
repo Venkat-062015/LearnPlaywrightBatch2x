@@ -7,9 +7,11 @@ greetTester("Dev", function () {
     console.log("Let's start testing!");
 });
 
+greetTester("Dev", () => {
+    console.log("Let's start testing!");
+});
 
 // Callback with Parameters
-
 
 function runTest(testName, callback) {
     let status = "PASS";
