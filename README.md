@@ -46,3 +46,47 @@ This repository contains Playwright learning examples and JavaScript concepts or
 2. Review chapter folders and code examples.
 3. Run JavaScript files with Node.js if needed.
 4. Use the chapter names to locate relevant topics quickly.
+
+## Usage examples
+
+- Run a single example file with Node.js:
+
+```bash
+node chapter_01_Basics/01_Basics.js
+```
+
+- Run multiple examples or try files interactively using Node REPL:
+
+```bash
+node
+> .load chapter_01_Basics/01_Basics.js
+```
+
+- If you use Playwright tests, install Playwright and run:
+
+```bash
+npm init -y
+npm i -D @playwright/test
+npx playwright install
+npx playwright test
+```
+
+## Table of Contents
+
+- [chapter_01_Basics](chapter_01_Basics/)
+- [chapter_02_Javascript_Concepts](chapter_02_Javascript_Concepts/)
+- [chapter_03_Identifier_Literals](chapter_03_Identifier_Literals/)
+- [chapter_04_Javascript_Concepts](chapter_04_Javascript_Concepts/)
+- [chapter_05_Literal](chapter_05_Literal/)
+- [chapter_06_Operator](chapter_06_Operator/)
+- [chapter_07_Statement](chapter_07_Statement/)
+- [chapter_08_Switch_Statement](chapter_08_Switch_Statement/)
+- [chapter_09_User_Input](chapter_09_User_Input/)
+- [chapter_10_Loops](chapter_10_Loops/)
+- [chapter_11_Arrays](chapter_11_Arrays/)
+- [chapter_12_Functions](chapter_12_Functions/)
+- [chapter_13_Strings](chapter_13_Strings/)
+- [chapter_14_Objects](chapter_14_Objects/)
+- [chapter_15_2D_Array](chapter_15_2D_Array/)
+- [chapter_16_Callback](chapter_16_Callback/)
+
