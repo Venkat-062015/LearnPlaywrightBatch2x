@@ -1,92 +1,78 @@
 # LearnPlaywrightBatch2x
 
-This repository contains Playwright learning examples and JavaScript concepts organized by chapter.
+This repository contains JavaScript and Playwright learning examples organized by chapter. It is designed for beginners who want to practice core programming concepts and then apply them with Playwright automation.
 
-## Structure
+## What is covered
 
-- `chapter_01_Basics/` - Basic Playwright and JavaScript setup examples
-- `chapter_02_Javascript_Concepts/` - JavaScript fundamentals and identifier handling
-- `chapter_03_Identifier_Literals/` - Identifier, literals, comments, and related examples
-- `chapter_04_Javascript_Concepts/` - Advanced JavaScript concepts, scope, hoisting, and functions
-- `chapter_05_Literal/` - String, number, template literal, and null/undefined examples
-- `chapter_06_Operator/` - Operator examples, comparison, increment/decrement, ternary, and nullish operators
-- `chapter_07_Statement/` - JavaScript statement examples and control flow
-- `chapter_08_Switch_Statement/` - Switch statement examples and use cases
-- `chapter_09_User_Input/` - User input examples using prompt and synchronous input patterns
-- `chapter_10_Loops/` - Loop examples including for, while, do-while, and practice tasks
-- `chapter_11_Arrays/` - Array examples: creation, iteration, searching, and transformation
-- `chapter_12_Functions/` - Function types, arrow functions, parameters, and return values
- - `chapter_13_Strings/` - String methods, manipulation, template literals, and pattern examples
- - `chapter_14_Objects/` - Object creation, property access, methods, prototypes, and JSON handling
- - `chapter_15_2D_Array/` - Multi-dimensional array examples, matrix iteration, and nested data handling
- - `chapter_16_Callback/` - Callback examples, asynchronous control flow, and parameter handling
- - `Loops_Tasks/`, `Multidimensional_Array_Tasks/`, `Operators_Task/`, `Statements_Tasks/`, `String_Tasks/` - Practice task collections for core JavaScript topics
+- JavaScript fundamentals and syntax
+- Variables, operators, statements, loops, arrays, strings, functions, and objects
+- Advanced topics such as callbacks, promises, async/await, classes, inheritance, encapsulation, and polymorphism
+- Playwright basics, test setup, and sample test files
 
-## Notes
+## Repository structure
 
-- The examples are intended for learning JavaScript and Playwright basics.
-- Each chapter contains focused code files and reference materials.
-- New chapters have been added over time to cover operators, statements, switch logic, and user input.
-- `chapter_07_Statement/` now includes recently added May task examples for statement practice.
-- `chapter_11_Arrays/` and `chapter_12_Functions/` were added (May 2026) with multiple example files.
- - `chapter_13_Strings/`, `chapter_14_Objects/`, `chapter_15_2D_Array/`, and `chapter_16_Callback/` were added with string, object, 2D array, and callback examples.
- - Practice folders provide additional hands-on tasks for loops, arrays, operators, statements, and strings.
+- [chapter_01_Basics](chapter_01_Basics/) - Basic JavaScript and Playwright setup examples
+- [chapter_02_Javascript_Concepts](chapter_02_Javascript_Concepts/) - JavaScript fundamentals
+- [chapter_03_Identifier_Literals](chapter_03_Identifier_Literals/) - Identifiers, literals, and comments
+- [chapter_04_Javascript_Concepts](chapter_04_Javascript_Concepts/) - Scope, hoisting, and functions
+- [chapter_05_Literal](chapter_05_Literal/) - Literal types and string handling
+- [chapter_06_Operator](chapter_06_Operator/) - Operators and comparison logic
+- [chapter_07_Statement](chapter_07_Statement/) - Conditional statements and practice examples
+- [chapter_08_Switch_Statement](chapter_08_Switch_Statement/) - Switch statement examples
+- [chapter_09_User_Input](chapter_09_User_Input/) - Input-related examples
+- [chapter_10_Loops](chapter_10_Loops/) - Looping concepts and exercises
+- [chapter_11_Arrays](chapter_11_Arrays/) - Array examples and operations
+- [chapter_12_Functions](chapter_12_Functions/) - Functions, closures, and higher-order functions
+- [chapter_13_Strings](chapter_13_Strings/) - String methods and manipulation
+- [chapter_14_Objects](chapter_14_Objects/) - Object-oriented examples
+- [chapter_15_2D_Array](chapter_15_2D_Array/) - Multidimensional array examples
+- [chapter_16_Callback](chapter_16_Callback/) - Callback concepts
+- [chapter_17_Promise](chapter_17_Promise/) - Promise examples
+- [chapter_18_Async_Await](chapter_18_Async_Await/) - Async/await patterns
+- [chapter_19_Playwright_Basics](chapter_19_Playwright_Basics/) - Playwright setup and sample tests
+- [chapter_20_Export_Import](chapter_20_Export_Import/) - Module export/import examples
+- [chapter_21_Classes_and_Objects](chapter_21_Classes_and_Objects/) - Classes and object examples
+- [chapter_22_Encapsulation](chapter_22_Encapsulation/) - Encapsulation examples
+- [chapter_23_Inheritance](chapter_23_Inheritance/) - Inheritance examples
+- [chapter_24_Polymorphism](chapter_24_Polymorphism/) - Polymorphism examples
+- [chapter_25_OOP_Interview_Questions](chapter_25_OOP_Interview_Questions/) - OOP interview practice
 
-## Update
+## Practice folders
 
-- README refreshed on June 3, 2026 with a clearer project overview.
- - README refreshed on June 12, 2026 with updated chapter listings and task folder descriptions.
-- Latest additions include `chapter_12_Functions/` examples such as arrow functions, IIFE, default/rest/spread parameters, scope, closures, higher-order functions, and pure functions.
- - Latest additions include callback parameter examples in `chapter_16_Callback/` and practical task collections in dedicated folders.
-- Use Node.js to run and explore the JavaScript examples in each chapter folder.
+Additional practice collections are available in:
+
+- [Loops_Tasks](Loops_Tasks/)
+- [Multidimensional_Array_Tasks](Multidimensional_Array_Tasks/)
+- [Operators_Task](Operators_Task/)
+- [Statements_Tasks](Statements_Tasks/)
+- [String_Tasks](String_Tasks/)
 
 ## How to use
 
 1. Open the repository in VS Code.
-2. Review chapter folders and code examples.
-3. Run JavaScript files with Node.js if needed.
-4. Use the chapter names to locate relevant topics quickly.
+2. Browse the chapter folders that match the topic you want to learn.
+3. Run JavaScript files with Node.js when needed.
+4. For Playwright examples, open the Playwright chapter and run the sample tests.
 
-## Usage examples
+## Quick examples
 
-- Run a single example file with Node.js:
+Run a JavaScript file with Node.js:
 
 ```bash
 node chapter_01_Basics/01_Basics.js
 ```
 
-- Run multiple examples or try files interactively using Node REPL:
+Run Playwright tests from the Playwright chapter:
 
 ```bash
-node
-> .load chapter_01_Basics/01_Basics.js
-```
-
-- If you use Playwright tests, install Playwright and run:
-
-```bash
-npm init -y
-npm i -D @playwright/test
-npx playwright install
+cd chapter_19_Playwright_Basics
+npm install
 npx playwright test
 ```
 
-## Table of Contents
+## Notes
 
-- [chapter_01_Basics](chapter_01_Basics/)
-- [chapter_02_Javascript_Concepts](chapter_02_Javascript_Concepts/)
-- [chapter_03_Identifier_Literals](chapter_03_Identifier_Literals/)
-- [chapter_04_Javascript_Concepts](chapter_04_Javascript_Concepts/)
-- [chapter_05_Literal](chapter_05_Literal/)
-- [chapter_06_Operator](chapter_06_Operator/)
-- [chapter_07_Statement](chapter_07_Statement/)
-- [chapter_08_Switch_Statement](chapter_08_Switch_Statement/)
-- [chapter_09_User_Input](chapter_09_User_Input/)
-- [chapter_10_Loops](chapter_10_Loops/)
-- [chapter_11_Arrays](chapter_11_Arrays/)
-- [chapter_12_Functions](chapter_12_Functions/)
-- [chapter_13_Strings](chapter_13_Strings/)
-- [chapter_14_Objects](chapter_14_Objects/)
-- [chapter_15_2D_Array](chapter_15_2D_Array/)
-- [chapter_16_Callback](chapter_16_Callback/)
+- This repository is intended for learning and practice.
+- Each chapter contains focused example files and supporting notes.
+- New topics are added over time as the course progresses.
 
