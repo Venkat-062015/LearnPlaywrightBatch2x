@@ -7,6 +7,7 @@ This repository contains JavaScript and Playwright learning examples organized b
 - JavaScript fundamentals and syntax
 - Variables, operators, statements, loops, arrays, strings, functions, and objects
 - Advanced topics such as callbacks, promises, async/await, classes, inheritance, encapsulation, and polymorphism
+- TypeScript basics, configuration, and interface-based design
 - Playwright basics, test setup, and sample test files
 
 ## Repository structure
@@ -36,6 +37,8 @@ This repository contains JavaScript and Playwright learning examples organized b
 - [chapter_23_Inheritance](chapter_23_Inheritance/) - Inheritance examples
 - [chapter_24_Polymorphism](chapter_24_Polymorphism/) - Polymorphism examples
 - [chapter_25_OOP_Interview_Questions](chapter_25_OOP_Interview_Questions/) - OOP interview practice
+- [chapter_26_Typescript](chapter_26_Typescript/) - TypeScript basics and examples
+- [chapter_27_TypeScript_Interface](chapter_27_TypeScript_Interface/) - Interfaces, readonly properties, and TypeScript design patterns
 
 ## Practice folders
 
@@ -74,5 +77,6 @@ npx playwright test
 
 - This repository is intended for learning and practice.
 - Each chapter contains focused example files and supporting notes.
+- TypeScript examples can be compiled with the provided tsconfig.json configuration.
 - New topics are added over time as the course progresses.
 
