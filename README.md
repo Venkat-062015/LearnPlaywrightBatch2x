@@ -7,7 +7,7 @@ This repository contains JavaScript and Playwright learning examples organized b
 - JavaScript fundamentals and syntax
 - Variables, operators, statements, loops, arrays, strings, functions, and objects
 - Advanced topics such as callbacks, promises, async/await, classes, inheritance, encapsulation, and polymorphism
-- TypeScript basics, configuration, and interface-based design
+- TypeScript basics, configuration, interface-based design, enums, generics, and access modifiers
 - Playwright basics, test setup, and sample test files
 
 ## Repository structure
@@ -39,6 +39,9 @@ This repository contains JavaScript and Playwright learning examples organized b
 - [chapter_25_OOP_Interview_Questions](chapter_25_OOP_Interview_Questions/) - OOP interview practice
 - [chapter_26_Typescript](chapter_26_Typescript/) - TypeScript basics and examples
 - [chapter_27_TypeScript_Interface](chapter_27_TypeScript_Interface/) - Interfaces, readonly properties, and TypeScript design patterns
+- [chapter_28_ENUM](chapter_28_ENUM/) - Enum examples and practical usage
+- [chapter_29_Typescript_Generic](chapter_29_Typescript_Generic/) - Generic types and reusable TypeScript patterns
+- [chapter_30_PRIVATE_PUBLIC_PROTECTED](chapter_30_PRIVATE_PUBLIC_PROTECTED/) - Access modifiers, readonly properties, and abstract classes
 
 ## Practice folders
 
